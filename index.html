@@ -262,7 +262,7 @@ try_async(callback) {
   succeed_with 42;
 
   // Or you might:
-  throw new Error('Вы облажался');
+  throw new Error('Ты облажался');
 
 } catch_finally_async(err, result) {
   // We get here when all async stuff
@@ -281,7 +281,7 @@ task.create(function(callback) {
   callback(null, 42);
 
   // Or you might:
-  throw new Error('Вы облажался');
+  throw new Error('Ты облажался');
 
 }).setCallback(function(err, result) {
   // We get here when all async stuff
